@@ -25,7 +25,7 @@ func main() {
 
 	out, _ = config.GetOrCreateConfig()
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Println("请输入 命令 或 按Ctrl+C 退出 (输入help查看帮助)")
+	fmt.Println("请输入 命令 或 按Ctrl+C 退出 (输入help查看帮助)！")
 	for {
 		readString, _ := reader.ReadString('\n')
 		readString = strings.TrimSpace(readString)

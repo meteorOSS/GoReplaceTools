@@ -15,7 +15,7 @@ func loadDefaultConfig() bool {
 	defaultXml := []byte(`
 		<config>
 			<!--  填写需要覆盖的目录  -->
-			<!--  例如以下会把commit的内容覆盖到plugins下，没有的目录自动构建
+			<!--  例如以下会把commit的内容覆盖到plugins下，没有的目录自动构建 -->
 			<directory>D:/server1/plugins</directory>
 			<directory>D:/server2/plugins</directory>
 		</config>

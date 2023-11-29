@@ -1,6 +1,7 @@
 package commit
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -9,7 +10,6 @@ import (
 
 func applyUpdate(directory, updateName string) error {
 	updatePath := filepath.Join("commit", updateName)
-
 	return filepath.Walk(updatePath, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -38,12 +38,13 @@ func copyFile(src, dst string) error {
 		return err
 	}
 	err = ioutil.WriteFile(dst, input, 0644)
+	fmt.Println("已更新目标路径:" + dst)
 	return err
 }
 
 func Commit(out config.Config, fileName string) {
-
 	for _, dir := range out.Directories {
 		applyUpdate(dir, fileName)
 	}
+	fmt.Println("已完成所有文件更新")
 }
