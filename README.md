@@ -36,3 +36,5 @@
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/1f977ba1-161c-4def-b027-858e9604ef7d)
 
 使用./GoReplaceTools，操作方式与上面一致
+
+杀毒报告 [https://www.virscan.org/report/637d5cbabb88960c519dce1bd5afc9f63952f0115d6954b22dfa115dc22d417b](https://www.virscan.org/report/637d5cbabb88960c519dce1bd5afc9f63952f0115d6954b22dfa115dc22d417b)
