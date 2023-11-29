@@ -29,7 +29,7 @@
 打开软件 输入 update CMI配置更新
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/ff755265-458a-4748-86b6-fb1f8cb5edac)
 
-### linux使用方式
+### 在linux平台使用
 
 输入chmod +x GoReplaceTools添加可执行权限
 
