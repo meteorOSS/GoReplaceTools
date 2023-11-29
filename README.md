@@ -1,4 +1,5 @@
-![logo2](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/f9302f78-6bed-401f-beba-3bcf26adab28)
+![logo2](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/117b58ec-39fc-4107-9ee3-3f802b25fb6a)
+
 
 # GoReplaceTool
 
