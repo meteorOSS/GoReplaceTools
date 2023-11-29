@@ -1,0 +1,7 @@
+
+		<config>
+			<!--  填写需要覆盖的目录  -->
+			<directory>D:/server1/plugins</directory>
+			<directory>D:/server2/plugins</directory>
+		</config>
+	
