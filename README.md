@@ -1,3 +1,5 @@
+![logo2](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/f9302f78-6bed-401f-beba-3bcf26adab28)
+
 # GoReplaceTool
 
 平时服务器更新的时候，写完的配置文件需要一个个拷贝到各个服务端。过程重复度高且容易出问题
