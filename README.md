@@ -23,13 +23,17 @@
 			<directory>D:/server2/plugins</directory>
 		</config>
 ```
-接下来，此次我将更新所有服务端CMI的配置文件. 在commit下新建文件夹，起一个名字，比如"CMI配置更新"
+接下来，我将更新所有服务端CMI的配置文件. 在commit下新建文件夹，起一个名字，比如"CMI配置更新"
+
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/81cd21ef-436e-4d3c-8731-2de92aa54a9f)
+
 我们需要将setting.yml覆盖到目标路径的CMI文件夹下 (D:/server1/plugins/CMI/)。
 由于在上方的软件config.xml配置中，目标文件夹(服务端)仅配置到了plugins文件夹，于是"CMI配置更新"文件夹下还需要新建一个"CMI"文件夹
+
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/2b5aeb38-979c-4889-8727-4a0cebea6b7f)
 
 打开软件 输入 update CMI配置更新
+
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/ff755265-458a-4748-86b6-fb1f8cb5edac)
 
 ### 在linux平台使用
