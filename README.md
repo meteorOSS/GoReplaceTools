@@ -1,4 +1,4 @@
-# GoReplaceTools
+# GoReplaceTool
 
 平时服务器更新的时候，写完的配置文件需要一个个拷贝到各个服务端。过程重复度高且容易出问题
 于是这个工具就诞生了 (go写这些小脚本是真方便)
@@ -30,6 +30,9 @@
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/ff755265-458a-4748-86b6-fb1f8cb5edac)
 
 ### linux使用方式
+
 输入chmod +x GoReplaceTools添加可执行权限
+
 ![image](https://github.com/meteorOSS/GoReplaceTools/assets/61687266/1f977ba1-161c-4def-b027-858e9604ef7d)
+
 使用./GoReplaceTools，操作方式与上面一致
